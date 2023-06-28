@@ -2,6 +2,7 @@
 
 html {
   background-color: #eee;
+  height: 100%;
 }
 
 section {
@@ -145,7 +146,9 @@ a.disabled img {
 
 body {
   background-image: url('/bg.png');
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
+  background-repeat: repeat-y;
   background-attachment: fixed;
   background-size: cover;
+  height: 100%;
 }
